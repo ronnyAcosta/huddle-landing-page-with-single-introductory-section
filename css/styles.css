@@ -11,6 +11,8 @@ body{
     background-size: cover;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-family: 'Open Sans', 'sans serif';
     color: white;
     
@@ -20,6 +22,9 @@ main{
     justify-content: space-between;
     margin: 80px 70px 0px; 
 
+}
+.huddle{
+    align-self: flex-start;
 }
 .huddle img{
     margin: 50px 0px 0px 70px;
@@ -71,6 +76,7 @@ p{
     display: flex;
     justify-content: flex-end;
     margin: 120px 5% 0px 50%;
+    align-self: flex-end;
     
 }
 .icons img{
@@ -101,7 +107,7 @@ footer{
     justify-self: flex-end;
 }
 
-@media screen and (min-width: 330px) and (max-width: 1300px){
+@media screen and (min-width: 850px) and (max-width: 1300px){
     
     body{
         background-image: url(/images/bg-mobile.svg);
@@ -112,7 +118,49 @@ footer{
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        padding: 80px 70px 0px; 
+        padding: 15px 0px 0px; 
+    }
+    section{
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        padding: 0px;
+    }
+    p{
+        text-align: center;
+        max-width: 430px;
+    }
+    .icons{
+        display: flex;
+        margin: 100px 0px 0px;
+        align-self: center;
+    }
+    
+    .buttom a{
+        padding: 15px 100px;
+        
+    }
+    figure img{
+        margin: 0px 0px 50px;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 850px){
+    
+    body{
+        background-image: url(/images/bg-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    
+    }
+    main{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 15px 0px 0px; 
+    }
+    .huddle img{
+        max-width: 200px;
     }
     section{
         justify-content: center;
@@ -129,6 +177,7 @@ footer{
         justify-content: center;
         align-items: center;
         margin: 100px 0px 0px;
+        align-self: center;
     }
     
     .buttom a{
@@ -136,7 +185,8 @@ footer{
         
     }
     figure img{
-        margin: 0px 0px 50px
+        margin: 0px 0px 50px;
+        max-width: 500px;
     }
 }
 
