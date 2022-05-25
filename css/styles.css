@@ -41,6 +41,7 @@ section{
     padding: 60px 0px 0px 60px; 
     height: 50vh;
     max-width: 650px;
+    min-width: 450px;
     margin-right: 15px;
 }
 h1{
@@ -69,7 +70,7 @@ p{
 .icons{
     display: flex;
     justify-content: flex-end;
-    margin: 50px 5% 0px 50%;
+    margin: 120px 5% 0px 50%;
     
 }
 .icons img{
@@ -100,7 +101,7 @@ footer{
     justify-self: flex-end;
 }
 
-@media screen and (min-width: 330px) and (max-width: 1350px){
+@media screen and (min-width: 330px) and (max-width: 1300px){
     
     body{
         background-image: url(/images/bg-mobile.svg);
@@ -138,9 +139,4 @@ footer{
         margin: 0px 0px 50px
     }
 }
-@media screen and (min-width: 1350px){
-    main{
-        
-         
-    }
-}
+
