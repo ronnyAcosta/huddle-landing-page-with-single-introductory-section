@@ -118,8 +118,9 @@ footer{
     }
     main{
         display: flex;
+        flex-direction: column;
         justify-content: center;
-        flex-wrap: wrap;
+        align-items: center;
         padding: 15px 0px 0px; 
     }
     section{
@@ -130,7 +131,12 @@ footer{
         width: auto;
         height: auto;
     }
-    p{
+    h1{
+        font-size: 30px;
+    }
+    p{  
+        font-size: 1.1em;
+        margin: 25px 0px 50px;
         text-align: center;
         max-width: 430px;
     }
@@ -154,7 +160,6 @@ footer{
 @media screen and (min-width: 250px) and (max-width: 700px){
     .huddle img{
         max-width: 170px;
-        justify-items: stretch;
         height: auto;
         width: auto;
     }
