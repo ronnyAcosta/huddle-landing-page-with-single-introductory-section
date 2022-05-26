@@ -41,6 +41,7 @@ figure img{
     width: auto;
     
 }
+
 section{
     display: flex;
     flex-direction: column;
@@ -108,7 +109,7 @@ footer{
     justify-self: flex-end;
 }
 
-@media screen and (min-width: 850px) and (max-width: 1300px){
+@media screen and (min-width: 250px) and (max-width: 1300px){
     
     body{
         background-image: url(/images/bg-mobile.svg);
@@ -126,6 +127,8 @@ footer{
         align-items: center;
         margin: 0px;
         padding: 0px;
+        width: auto;
+        height: auto;
     }
     p{
         text-align: center;
@@ -143,79 +146,18 @@ footer{
     }
     figure img{
         margin: 0px 0px 100px;
+        max-width: 10vw;
+        min-width: 75vw;
     }
 }
 
-@media screen and (min-width: 300px) and (max-width: 850px){
-    *{
-        padding: 0px;
-        margin: 0px;
-    }
-    body{
-        background-image: url(/images/bg-mobile.svg);
-        background-repeat: no-repeat;
-        background-size: contain;
-        min-width: 450px;
-    
-    }
-    main{
-        display: flex;
-        justify-content: center;
-        align-self: center;
-        flex-direction: column;
-        padding: 15px 0px 0px; 
-    }
-    .huddle{
-        margin-left: 50px;
-
-    }
-
+@media screen and (min-width: 250px) and (max-width: 700px){
     .huddle img{
-        max-width: 210px;
-        padding-left: 0px;
-        
+        max-width: 170px;
+        justify-items: stretch;
+        height: auto;
+        width: auto;
     }
-    
-    figure img{
-        min-width: 1vw;
-        margin: 0px 10px 100px;
-        max-width: 380px;
-        height: 100%;
-        
-    
-       
-        
-    }
-    section{
-        justify-content: center;
-        align-items: center;
-        margin: 0px;
-        padding: 0px;
-    }
-    h1{
-        font-family: 'Poppins', 'sans serif';
-        font-weight: 600;
-        font-size: 40px;
-    }
-        
-    p{
-        text-align: center;
-        max-width: 430px;
-        font-size: 1.4em;
-        margin: 25px 0px 50px;
-    }
-    .icons{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 100px 0px 0px;
-        align-self: center;
-    }
-    
-    .buttom a{
-        padding: 15px 100px;
-        
-    }
-    
+
 }
 
