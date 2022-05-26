@@ -155,7 +155,7 @@ footer{
         background-image: url(/images/bg-mobile.svg);
         background-repeat: no-repeat;
         background-size: contain;
-        /*min-width: 500px;*/
+        min-width: 450px;
     
     }
     main{
@@ -163,7 +163,7 @@ footer{
         justify-content: center;
         align-self: center;
         flex-direction: column;
-        padding: 15px 10px 0px; 
+        padding: 15px 0px 0px; 
     }
     .huddle{
         margin-left: 50px;
@@ -177,9 +177,12 @@ footer{
     }
     
     figure img{
-        min-width: 100px;
+        min-width: 1vw;
         margin: 0px 10px 100px;
-        max-width: 500px;
+        max-width: 380px;
+        height: 100%;
+        
+    
        
         
     }
