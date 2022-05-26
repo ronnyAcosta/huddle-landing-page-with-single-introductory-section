@@ -25,9 +25,10 @@ main{
 }
 .huddle{
     align-self: flex-start;
-}
-.huddle img{
     margin: 50px 0px 0px 70px;
+}
+
+.huddle img{
     height: auto;
     width: auto;
 }
@@ -141,26 +142,46 @@ footer{
         
     }
     figure img{
-        margin: 0px 0px 50px;
+        margin: 0px 0px 100px;
     }
 }
 
 @media screen and (min-width: 300px) and (max-width: 850px){
-    
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
     body{
         background-image: url(/images/bg-mobile.svg);
         background-repeat: no-repeat;
         background-size: contain;
+        /*min-width: 500px;*/
     
     }
     main{
         display: flex;
         justify-content: center;
-        flex-wrap: wrap;
-        padding: 15px 0px 0px; 
+        align-self: center;
+        flex-direction: column;
+        padding: 15px 10px 0px; 
     }
+    .huddle{
+        margin-left: 50px;
+
+    }
+
     .huddle img{
-        max-width: 200px;
+        max-width: 210px;
+        padding-left: 0px;
+        
+    }
+    
+    figure img{
+        min-width: 100px;
+        margin: 0px 10px 100px;
+        max-width: 500px;
+       
+        
     }
     section{
         justify-content: center;
@@ -168,9 +189,17 @@ footer{
         margin: 0px;
         padding: 0px;
     }
+    h1{
+        font-family: 'Poppins', 'sans serif';
+        font-weight: 600;
+        font-size: 40px;
+    }
+        
     p{
         text-align: center;
         max-width: 430px;
+        font-size: 1.4em;
+        margin: 25px 0px 50px;
     }
     .icons{
         display: flex;
@@ -184,9 +213,6 @@ footer{
         padding: 15px 100px;
         
     }
-    figure img{
-        margin: 0px 0px 50px;
-        max-width: 500px;
-    }
+    
 }
 
