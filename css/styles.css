@@ -168,6 +168,10 @@ footer{
         height: auto;
         width: auto;
     }
+    main figure{ 
+        align-self: flex-start;
+        justify-self: flex-start;
+    }
     section{
         max-width: 350px;
         min-width: 120px;
