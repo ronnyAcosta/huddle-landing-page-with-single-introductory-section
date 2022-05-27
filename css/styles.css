@@ -172,7 +172,7 @@ footer{
         margin: 40px 20px 0px;
     }
     main figure{ 
-        align-self: flex-start;
+        /*align-self: flex-start;
         /*justify-self: flex-start;*/
     }
     section{
