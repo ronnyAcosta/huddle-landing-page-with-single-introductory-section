@@ -122,6 +122,8 @@ footer{
         justify-content: center;
         align-items: center;
         padding: 15px 0px 0px; 
+        margin: 80px 20px 0px; 
+
     }
     section{
         justify-content: center;
@@ -158,10 +160,18 @@ footer{
 }
 
 @media screen and (min-width: 250px) and (max-width: 700px){
+    .huddle{
+        margin: 50px 0px 0px 70px;
+    }
     .huddle img{
         max-width: 170px;
         height: auto;
         width: auto;
+    }
+    section{
+        max-width: 350px;
+        min-width: 120px;
+        margin: 0px 15px;
     }
 
 }
