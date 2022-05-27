@@ -171,10 +171,7 @@ footer{
     main{
         margin: 45px 20px 0px;
     }
-    main figure{ 
-        /*align-self: flex-start;
-        /*justify-self: flex-start;*/
-    }
+    
     section{
         max-width: 320px;
         min-width: 120px;
